@@ -21,7 +21,7 @@
     - @books.each do |book|
       %tr
         %td= link_to book.id.to_s.last(7), book_path(book)
-        %td= book.name
+        %td= link_to book.name, book.href
         %td= book.image
         %td= book.timeStamp
         %td= book.author

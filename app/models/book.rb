@@ -23,6 +23,8 @@ class Book
 
   belongs_to :book_url, dependent: :nullify
   after_save :revoke_url
+  
+  delegate :href, to: :book_url, allow_nil: true
 
   def as_json(opts = {})
     self.attributes.slice(*JSONABLE)
