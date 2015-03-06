@@ -106,6 +106,7 @@ GEM
     ntlm-http (0.1.1)
     optionable (0.2.0)
     origin (2.1.1)
+    parallel (1.4.1)
     pry (0.10.1)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -184,6 +185,7 @@ DEPENDENCIES
   less-rails
   mechanize
   mongoid
+  parallel
   pry
   puma
   rails (= 4.1.6)

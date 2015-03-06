@@ -23,6 +23,7 @@ gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 gem 'mechanize'
+gem "parallel"
 gem 'delayed_job_mongoid'
 gem 'kaminari'
 gem 'pry', group: [:development]
